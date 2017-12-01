@@ -8,7 +8,7 @@ const Header = () => {
       <img src={logo}
            alt='logo'
            className={styles.Header_logo} />
-      <span className={styles.Header_title}>SZKOLNA LIGA PŁYWACKA 2016/2017</span>
+      <span className={styles.Header_title}>SZKOLNA LIGA PŁYWACKA 2017/2018</span>
     </header>
   );
 };
