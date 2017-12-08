@@ -1,0 +1,50 @@
+.sponsors {
+  margin-bottom: 30px; }
+
+.sponsorsHeading {
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  font-weight: normal; }
+  @media only screen and (max-width: 930px) {
+    .sponsorsHeading {
+      font-size: rem; } }
+  @media only screen and (max-width: 670px) {
+    .sponsorsHeading {
+      font-size: 1rem; } }
+
+.logoList {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 2px #0000004d, 0 0 14px -2px black;
+  list-style: none; }
+  @media only screen and (max-width: 650px) {
+    .logoList {
+      display: none; } }
+
+.logoListSmallDevices {
+  background: white;
+  padding: 8px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 2px #0000004d, 0 0 14px -2px black;
+  list-style: none;
+  display: none; }
+  .logoListSmallDevices .firstRow, .logoListSmallDevices .secondRow {
+    display: flex;
+    justify-content: space-around; }
+  .logoListSmallDevices .firstRow {
+    margin-bottom: 20px; }
+  @media only screen and (max-width: 650px) {
+    .logoListSmallDevices {
+      display: block; } }
+
+.logo {
+  height: 70px;
+  width: auto; }
+  @media only screen and (max-width: 950px) {
+    .logo {
+      height: 40px; } }
+
+/*# sourceMappingURL=Sponsors.css.map */

@@ -1,37 +1,36 @@
 .Header {
-  vertical-align: middle;
-  margin-bottom: 20px; }
+  display: flex;
+  align-items: center;
+  padding-left: 40px; }
 
 .Header_logo {
   width: 120px;
   height: auto;
-  margin: 30px;
-  float: left; }
+  margin-right: 40px; }
 
 .Header_title {
   height: 180px;
   line-height: 180px;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 2.1rem;
   color: white;
   text-shadow: 2px 2px 3px black; }
 
 @media only screen and (max-width: 930px) {
-  .Header_title {
-    font-size: 1.8rem;
-    line-height: 140px;
-    height: 140px; }
-
   .Header_logo {
-    width: 80px; } }
-@media only screen and (max-width: 670px) {
+    width: 80px; }
+
   .Header_title {
-    font-size: 1.5rem;
-    line-height: 85px;
-    height: 8px; }
+    font-size: 1.5rem; } }
+@media only screen and (max-width: 670px) {
+  .Header {
+    padding-left: 0; }
 
   .Header_logo {
     width: 60px;
-    margin: 10px; } }
+    margin: 10px; }
+
+  .Header_title {
+    font-size: 1.3rem; } }
 
 /*# sourceMappingURL=Header.stylesheet.css.map */

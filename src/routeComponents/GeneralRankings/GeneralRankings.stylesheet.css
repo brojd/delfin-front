@@ -17,6 +17,12 @@
   border-left: 1px solid rgba(255, 255, 255, 0.54);
   border-top: 1px solid rgba(255, 255, 255, 0.54);
   z-index: 3; }
+  @media only screen and (max-width: 670px) {
+    .tab {
+      font-size: .9rem; } }
+  @media only screen and (max-width: 400px) {
+    .tab {
+      font-size: .75rem; } }
 
 .tab:hover {
   background: rgba(21, 59, 86, 0.88); }

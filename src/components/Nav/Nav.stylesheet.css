@@ -9,6 +9,12 @@
   color: rgba(243, 243, 243, 0.95) !important;
   box-shadow: 0 0 3px white;
   text-shadow: 2px 2px 2px black; }
+  @media only screen and (max-width: 670px) {
+    .link {
+      font-size: .9rem; } }
+  @media only screen and (max-width: 400px) {
+    .link {
+      font-size: .75rem; } }
 
 .link:hover {
   background: rgba(21, 59, 86, 0.88) !important; }
