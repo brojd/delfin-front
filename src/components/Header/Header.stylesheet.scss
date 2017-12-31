@@ -5,9 +5,14 @@
 }
 
 .Header_logo {
-  width: 120px;
+  width: 183px;
   height: auto;
   margin-right: 40px;
+  padding: 8px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #0009;
+  box-shadow: -2px 4px 12px 2px #595858;
 }
 
 .Header_title {
@@ -21,7 +26,8 @@
 
 @media only screen and (max-width: 930px) {
   .Header_logo {
-    width: 80px;
+    width: 140px;
+    padding: 4px;
   }
   .Header_title {
     font-size: 1.5rem;
@@ -33,7 +39,7 @@
     padding-left: 0;
   }
   .Header_logo {
-    width: 60px;
+    width: 90px;
     margin: 10px;
   }
   .Header_title {
